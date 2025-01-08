@@ -19,6 +19,18 @@ body {
     width: 40vh;
 }
 
+.footer-container{
+    margin: 30px;
+    font-size: 1.25rem;
+    color: #af4d98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart{
+    color: red;
+}
 form {
     margin: 2rem 0 1rem 0;
 }
