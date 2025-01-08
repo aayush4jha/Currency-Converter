@@ -81,3 +81,39 @@ form button {
     cursor: pointer;
 }
 
+@media (min-width: 768px) {
+    .dropdown {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .select-container {
+        width: auto;
+        flex: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        gap: 1rem;
+    }
+
+    form input {
+        font-size: 0.9rem;
+        height: 2.5rem;
+    }
+
+    form button {
+        font-size: 1rem;
+        height: 2.8rem;
+    }
+
+    .dropdown i {
+        font-size: 1.2rem;
+    }
+}
